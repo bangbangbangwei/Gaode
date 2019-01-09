@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        >
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/common_nav_btn_menu_n_xxhdpi"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="24dp"
+            />
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/common_nav_btn_search_n_xxhdpi"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="24dp"
+            />
+    </RelativeLayout>
+    <com.recker.flybanner.FlyBanner
+        android:id="@+id/ShouBanner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+</LinearLayout>
